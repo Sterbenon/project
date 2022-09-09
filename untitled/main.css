@@ -1,0 +1,31 @@
+.wrap{
+  height:auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  border: black;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 25px;
+  border-style: solid ;
+}
+.member
+{
+  background-color: azure;
+  width:600px;
+  height:140px;
+  align-items: center;
+  border: 1px;
+  border-radius: 25px;
+  justify-content: center;
+  display: flex;
+  text-justify: auto;
+  flex-direction: column;
+  border-style: solid ;
+
+}
+
+ /*Стилизація проєкта -*/
+ /*index.html - всі блоки з user - по 2 в рядок. кнопки/посилання розташувати під інформацією про user.*/

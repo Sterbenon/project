@@ -1,0 +1,70 @@
+body{
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  width: auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.member{
+  height:auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  border: black;
+  flex-wrap: wrap;
+  flex-grow: 999;
+  row-gap: 20px;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 25px;
+  border-style: solid ;
+  background-color: azure;
+
+}
+.button{
+  background-color: azure;
+  width:auto;
+  height:auto;
+  align-items: normal;
+  border: black;
+  border-radius: 25px;
+  justify-content: center;
+  display: flex;
+  text-justify: auto;
+  flex-direction: column;
+  border-style: solid;
+
+}
+div{height:auto;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border: black;
+  flex-wrap: wrap;
+  flex-grow: 999;
+  row-gap: 20px;
+  column-gap: 10px;
+  border-radius: 25px;
+  border-style: solid;
+  padding-bottom: 20px;
+
+}
+div.member{
+  text-align: center;
+
+}
+div.button{
+  text-align: left;
+}
+h2{
+  border: black;
+  background-color: azure;
+  border-radius: 25px;
+  border-style: solid;
+  width: 100%;
+  text-align: center;
+}
+
+/* user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою інфою про post - в ряд по 5 .*/
